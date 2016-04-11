@@ -1,0 +1,205 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+body, button {
+  font-family: Monaco, 'Courier New', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 38px;
+  text-align: center;
+  padding-top: 50px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  margin: auto;
+}
+nav {
+  font-size: 13px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+}
+nav li, nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul {
+  z-index: 1;
+}
+nav li, nav a {
+  display: inline-block;
+}
+nav a {
+  margin: 0;
+  padding: 20px 10px 20px 10px;
+  color: #333;
+  text-decoration: none;
+}
+ul.faq {
+  padding: 0;
+  max-width: 700px;
+  margin: 50px auto;
+  list-style: none;
+}
+ul.faq li:nth-child(odd) {
+  font-style: italic;
+  padding-bottom: 20px;
+}
+ul.faq li:nth-child(even) {
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+ul.timeline
+{
+  padding: 0;
+  max-width: 700px;
+  margin: 50px auto;
+  list-style-type: none;
+}
+a:hover {
+  background: #40a0c0;
+  color: #fff;
+}
+a.active {
+  background: #40a0c0;
+  color: #fff;
+}
+p {
+  margin: 50px auto;
+  max-width: 700px;
+}
+p.caption {
+  margin: 2px auto;
+  font-size: 13px;
+  text-align: right;
+  max-width: 1000px;
+}
+a.phase {
+  color: #40a0c0;
+  text-decoration: none;
+}
+a.phase:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+p.caption a {
+  color: #40a0c0;
+  text-decoration: none;
+}
+p.caption a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+div.info {
+  margin: 20px auto;
+  font-size: 14px;
+}
+div.sponsers {
+  margin: 20px auto;
+}
+.paypal {
+  width: 147px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.wrap {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+section {
+  padding: 50px 0 30px 0;
+}
+footer {
+  text-align: center;
+  margin-bottom: 100px;
+}
+button {
+  font-size: 18px;
+  border: 0;
+  padding: 15px 30px;
+  background: #40a0c0;
+  color: #fff;
+  cursor: pointer;
+}
+#progressField {
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-bottom: 50px;
+  position: relative;
+  max-width: 500px;
+  height: 50px;
+}
+.dollar {
+  margin: 20px auto;
+  font-size: 20px;
+  text-align: center;
+}
+.progressjs-theme-customStyle2 .progressjs-inner {
+  position: relative;
+  height: 50px;
+  padding-bottom: 10px;
+  transition: all 1s ease-out;
+  color: #000000;
+  background-color: #40a0c0;
+}
+.progressjs-progress.progressjs-theme-customStyle {
+    height: 50px;
+    background-color: #e0e0e0;
+}
+/* Blue theme with border radius, overlay layer and percent bar */
+.progressjs-theme-customStyle {
+    height: 50px;
+    background-color: #40a0c0;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    border-radius: 5px;
+}
+.progressjs-theme-customStyle .progressjs-inner {
+    height: 50px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    background-color: #40a0c0;
+    border-radius: 5px;
+}
+.progressjs-theme-customStyle.progressjs-end {
+    opacity: 0 !important;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+}
+.progressjs-theme-customStyle .progressjs-percent {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 70px;
+    text-align: center;
+    height: 40px;
+    position: absolute;
+    right: 50%;
+    margin-right: -35px;
+    top: 50%;
+    margin-top: -20px;
+    font-size: 30px;
+    opacity: .5;
+}

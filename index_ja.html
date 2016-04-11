@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="UTF-8" />
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <title>タンジブル・コリオグラフィ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='./css/style.css'>
+  <link rel='stylesheet' href='./css/progressjs.min.css'>
+  <script src="./js/progress.min.js"></script>
+</head>
+<body onresize="body_resized()">
+<div class="wrap" ng-controller="MyCtrl">
+  <nav>
+    <ul>
+      <li><a href="#section-1" du-smooth-scroll du-scrollspy>はじめに</a></li><li
+      ><a href="#section-2" du-smooth-scroll du-scrollspy>ロードマップ</a></li><li
+      ><a href="#section-3" du-smooth-scroll du-scrollspy>募金</a></li><li
+      ><a href="#section-4" du-smooth-scroll du-scrollspy>FAQ</a></li><li
+      ><a href="./index.html" du-scrollspy><img src="./img/us.png" alt="english"></a></li>
+    </ul>
+  </nav>
+  <h1>タンジブル・コリオグラフィ</h1>
+    <img src="https://c1.staticflickr.com/1/616/21424565189_f9ab4c740d_k.jpg" alt="" />
+    <p class="caption">Photo: <a href="https://www.flickr.com/photos/motionbank/21424565189/">Motionbank</a></p>
+
+  <section id="section-1">
+    <h2>はじめに</h2>
+    <p>
+こんにちは、稗田直人です。日本からカナダ・モントリオールに移住して四年間、エンジニア兼メディアアーティストとして日本やカナダをはじめとして数々のメディア・インスタレーションの開発・展示に関わってきました。今回私は、メディア・アートやタンジブル・インターフェースといった技術に現代ダンスの思想を取り入れた、「タンジブル・コリオグラフィ」を提唱いたします。現代ダンスのコリオグラフィ（振り付け）は体の動きだけのものではなく、コリオグラファ（振付家）とダンサーと観客の関係だったり、体の細胞を意識することなど、単純な体の動きにとどまらない前衛的なアイデアであふれています。「タンジブル・コリオグラフィ」はそういった思想を理解し、脳波インターフェースやバーチャル・リアリティ、触覚デバイスといった最先端の技術を駆使して現代ダンスのアイデアを具現化することを目的としています。
+    </p>
+
+    <img src="./img/smalt.jpg" alt="" />
+    <p class="caption">Photo: Naoto Hieda</a></p>
+  </section>
+
+  <section name="section-2">
+    <h2>ロードマップ</h2>
+    <p>
+    <ul class="timeline">
+      <li>フェーズ 1: <a class="phase" href="http://choreographiccoding.org">コリオグラフィック・コーディング・ラボ</a> (ニューヨーク, 2015)</li>
+      <li>フェーズ 2: <a class="phase" href="http://www.lifelongburning.eu/projects/danceweb_scholarships.html">danceWeb（ダンスウェブ）</a> (ウィーン, 2016)</li>
+      <li>フェーズ 3: マギル大学博士課程 (モントリオール, 2017-)</li>
+    </ul>
+</p>
+<p>
+「タンジブル・コリオグラフィ」の長期的な目標は、コリオグラファやダンサー、アーティスト、研究者たちと大学などの研究機関で共同研究をしながら作品製作をすることです。短期的には、2015年にコリオグラフィック・コーディング・ラボで実験的な作品「セリュラー・ボディ」を発表し、また2016年にはウィーンで開催されるダンスウェブという一か月間のレジデンス・ワークショップに千人超の応募者のうち66人の合格者の一人として参加することになりました。ワークショップでティノ・セーガル氏など第一線で活躍されている方々から現代ダンスを学べること、そして同じ世代の今後活躍が期待されるダンサー、コリオグラファの人たちとネットワークを作れることは、自分が現代ダンスとメディア・アートを大学などで本格的に研究していくための第一歩になります。
+</p>
+
+    <img src="https://c1.staticflickr.com/1/723/21600879292_70dc460b66_k.jpg" alt="" />
+    <p class="caption">Photo: <a href="https://www.flickr.com/photos/motionbank/21600879292/">Motionbank</a></p>
+  </section>
+
+  <section id="section-3">
+    <h2>募金</h2>
+    <div id="progressField"></div>
+    <p class="dollar">0万円 / 42万円<br />締め切り: 六月一日</p>
+<form class="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+    <p>
+「タンジブル・コリオグラフィ」の第一段階として、ダンスウェブに参加するためにこの度は寄付金を募ることいたしました。ダンスウェブの経費は、参加費用27万円、航空券8万円、食事代6万円、あわせて41万円と見積もっています。参加費用は六月一日までに支払わなければなりません。食事も含めてすべての経費はこちらのサイトで公開いたします。また、ダンスウェブの開催期間は寄付いただいた方全員にレポートをお送りいたします。また、8,300円以上の寄付をいただいた方々にはお礼に<a class="phase" href="http://naotohieda.com/origami/">ユニット折り紙</a>をお送りいたします（送料別）。ワークショップへの参加は自分のキャリアのためになるだけでなく、参加したおりにはその経験をいかして現代ダンスとテクノロジーの研究分野の発展に尽くしていくことをお約束します。なお、金額はすべてカナダドルから換算しています。
+
+  </section>
+  <section id="section-4">
+    <h2>FAQ</h2>
+  </section>
+<ul class="faq">
+<li>
+Q: 期限までに目標額を達成できなかった場合は返金されますか。
+</li>
+<li>
+A: いいえ。その場合は自分自身で経費を支払います。
+</li>
+<li>
+Q: ダンスウェブは奨学金制度だと聞きました。なぜ募金が必要なのですか。
+</li>
+<li>
+A: ワークショップ参加費のうち、ダンスウェブと欧州委員会が三分の二を支援しますが参加者が残りの金額とその他経費を負担しなければなりません。調べた結果、日本及びカナダで私が申し込める財団は見つかりませんでした。
+</li>
+<li>
+Q: 銀行振込は可能ですか。
+</li>
+<li>
+A: はい。その旨メールでご連絡いただければ対応いたします。
+</li>
+<li>
+Q: 税金の控除の対象にはなりますか。
+</li>
+<li>
+A: いいえ。ただし領収書が必要な場合などはメールでご連絡ください。
+</li>
+<li>
+Q: なぜキックスターターなどのクラウドファンディングのサービスを使わないのですか。
+</li>
+<li>
+A: クラウドファンディングは通常手数料がかかります（キックスターターの場合は五パーセント）。そのため手数料が若干安いペイパルを使うことで最大限に寄付金を利用できるようにしました。
+</li>
+</ul>
+
+  <footer>
+    <div class="sponsers">
+    <img src="img/llb_logo.png" alt="" />
+    <img src="img/eucult.png" alt="" />
+    </div>
+    <!--<div>
+    <button ng-click="toTheTop()">Home</button>
+    </div>-->
+    <div class="info">
+    Naoto Hieda 2016<br />
+    <a class="phase" href="http://naotohieda.com">naotohieda.com</a><br />
+    micuat@gmail.com
+    </div>
+  </footer>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+<script src="./js/angular-scroll.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
