@@ -1,0 +1,28 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title:
+  en: Tangible Choreography
+  ja: タンジブル・コリオグラフィ
+email: micuat@gmail.com
+description:
+  en: A blog of the Tangible Choreography project
+  ja: タンジブル・コリオグラフィのブログ
+index:
+  en: ""
+  ja: "index_ja.html"
+baseurl: "" # the subpath of your site, e.g. /blog
+#  en: ""
+#  ja: "index_ja.html"
+url: "http://tangiblechoreography.org" # the base hostname & protocol for your site
+twitter_username: naoto_hieda
+github_username:  micuat
+
+# Build settings
+markdown: kramdown
+repository: micuat/tangiblechoreography
