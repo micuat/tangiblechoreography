@@ -10,7 +10,7 @@ angular.module('myApp', ['duScroll']).
         if(s3Rectangle.top < 400) {
           progressJs("#progressField").setOptions({overlayMode: true, theme: 'customStyle'});
           progressJs("#progressField").start();
-          progressJs("#progressField").set(50 / 5000 * 100);
+          progressJs("#progressField").set(110 / 5000 * 100);
           started = 1;
         }
       }
