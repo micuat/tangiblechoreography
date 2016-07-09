@@ -33,6 +33,9 @@ iframe {
   margin: auto;
   width: 100%;
 }
+p.center {
+  text-align: center;
+}
 
 // Use media queries like this:
 // @include media-query($on-palm) {
