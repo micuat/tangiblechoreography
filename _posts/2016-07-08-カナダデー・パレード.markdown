@@ -5,7 +5,7 @@ ref: canadaday
 lang: ja
 ---
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/O6QyDuLrB_c?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/O6QyDuLrB_c?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 上の動画は七月一日に[こまちモンレアル]( http://www.komachimontreal.com/ )の一員として[あらし太鼓といなずま太鼓]( http://www.arashidaiko.org/ )と共にカナダデーのパレードでさんさ踊りと寄せ太鼓に参加した際に撮影した360度動画です。タンジブル・コリオグラフィの主なテーマはコンテンポラリー・ダンスに関するものですが、今回は伝統芸能と技術を結びつけるべく360度カメラを用いてパレードの様子を撮影しました。アンドロイドと Google Cardboard で視聴いただける他、お持ちでない方もパソコン上の Google Chrome やモバイルの Youtube アプリなどで視聴いただけます。自分がカメラを持ち歩いていたため自分自身が踊っている動画は撮影できませんでしたが、代わりにメイキングとして練習中の様子をいくつか挿入しました。
 
