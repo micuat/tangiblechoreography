@@ -17,7 +17,7 @@ h2 {
   text-align: center;
 }
 img {
-  max-width: 100%;
+  width: 100%;
   margin: auto;
 }
 nav {
@@ -138,6 +138,10 @@ button {
   background: #40a0c0;
   color: #fff;
   cursor: pointer;
+}
+iframe {
+  display: block;
+  margin: auto;
 }
 #progressField {
   margin-left: auto ;
