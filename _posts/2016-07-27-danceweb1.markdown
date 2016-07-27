@@ -1,0 +1,17 @@
+---
+title: danceWEB (1)
+layout: post
+ref: danceweb1
+lang: en
+---
+
+![affichiste](../../../img/affichiste.jpg)
+{: .center}
+<p>An exercise. Bhenji Ra and Naoto Hieda (2016)</p>
+{: .center}
+
+The first week of danceWEB and ImPulsTanz has past. While talking with other danceWEBers, the most frequently asked question was whether I am a dancer or not. They ask this question because, in addition to dancers, this year's danceWEB mentored by Tino Sehgal had a call for visual artists. Honestly I was not aware of what exactly visual art is, but from my understanding so far, visual art pieces fit in a museum, but the medium is not limited to paintings and traditional sculptures. I am involved in media art, which seems to have some overlaps with visual art. There are even artworks that fit in between, for example, Biennale international d'art numérique de Montréal (BIAN). However, what struck me when I talked to visual artists was that they have a clear understanding of the visual art history, more or less.
+
+We had an exercise with Tino to make artwork from posters in the corridor of the Arsenal, where the workshops are taking place, because the nicely aligned posters were not pleasant. He referred this exercise to an affichiste movement in France which is to tear and morph posters in a city into artwork. I teamed up with Bhenji Ra, an Australian dancer. Although some people completely destroyed their posters, we kept the poster as is, gently placing it on the floor. Beside the poster, we put a bottle of Innocent Juice that we randomly found in the hallway. While Tino and the danceWEBers criticized the works, Tino tried to keep comments short by naming relevant visual artists in the history. One of the danceWEBers referred our work to Ceal Floyer, and Tino told us that ours is more contemporary than the others. Unfortunately the hallway is cleaned up, but you can see a video of the pieces [here](https://youtu.be/9nEKdJ_YECk).
+
+I am not knowledgeable in the visual art history, so I am reluctant to say that I am an artist. I am more familiar with media art history, but my knowledge is quite fragmented. Therefore, if I need to answer to that question, I say that I am an engineer. Actually, regarding this question, I had an interesting conversation with Thiago Granato during a danceWEB welcome brunch. He told me that today there are less people say "I am a dancer." This seems to be a result of the diversity of approaches to contemporary dance. Through his performance "Treasured in the Dark" at ImPulsTanz, Thiago investigates modalities of choreography; for example, he set up some situations to access dead choreographers rather than choreographing by himself. Also he told me that computer-choreographed performances exist from 1950s when I explained my interest in dance and technology. If a machine choreographs, is the creator a choreographer or an engineer? Considering different modalities for creation, labeling if someone is an artist, an engineer or a dancer does not have a significant meaning anymore.
